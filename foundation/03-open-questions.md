@@ -86,6 +86,14 @@ The methodology's original operationalization of empower-not-replace leaned on a
 
 **What would resolve this:** longitudinal gate records from the pilot (and later users) — pass/fail trajectories, override frequency, whether early-stage explain-back performance predicts later phase performance — checked against an external signal of the researcher's actual development (the supervising professor's own weekly tracking is the natural one). A pattern of gates passing while the external signal stagnates falsifies the bet; both moving together supports it.
 
+### Q14: Does the methodology transfer to a researcher through the self-serve interface alone?
+
+The methodology is increasingly meant to be *used*, not only read — picked up from the starter workspace by a researcher and their agent, ideally with no guidance but the repo ([GOAL.md](../GOAL.md), [CLAUDE.md](../CLAUDE.md): the interface is itself under study). Whether that transfer actually happens — whether an unmediated researcher onboards, works, and benefits without anyone from this inquiry walking them through it — is open, and distinct from whether the methodology *works once adopted* (Q13), whether development can be *tracked* (Q11), or whether the empower/replace call can be *recognized* (Q10). A methodology that is sound but transmissible only by its authors has not met its own goal.
+
+This question is the subject-matter face of the product's validation apparatus ([VALIDATION.md](../VALIDATION.md)): its desirability-family pillars — value, usability, adoptability — are the evidence that bears here, and feasibility and integrity gate whether the transfer is even safe.
+
+**What would resolve this:** the validation apparatus's readings across pilot and non-pilot users — feasibility / usability / value / adoptability holding for users who received only the repo, with the dry-run tests calibrated against that field evidence. A non-pilot colleague who adopts and *continues* unaided is the strongest single signal; repeated cold-start failures that trace to the interface (not the domain) falsify the current self-serve bet. The honest confound: the dev-stage build carries self-documenting overhead a deploy build will not, so soft-pillar readings here are read discounted and confirmed in a later de-instrumented trial.
+
 ---
 
 ## Resolved
