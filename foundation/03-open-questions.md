@@ -86,6 +86,12 @@ The methodology's original operationalization of empower-not-replace leaned on a
 
 **What would resolve this:** longitudinal gate records from the pilot (and later users) — pass/fail trajectories, override frequency, whether early-stage explain-back performance predicts later phase performance — checked against an external signal of the researcher's actual development (the supervising professor's own weekly tracking is the natural one). A pattern of gates passing while the external signal stagnates falsifies the bet; both moving together supports it.
 
+#### Q13.1: Does building the paper through per-paragraph explain-back build writing capability, or just offload it?
+
+A specialization of Q13 for the writing phase (practice G26). The `write` skill wagers that drafting the paper paragraph by paragraph — the researcher articulating each paragraph in their own words as the ownership gate, the agent drafting in their voice — builds scholarly-writing capability rather than offloading it. Writing is a high-stakes instance: it is part of what the researcher is judged on, and A16 (output without skill) is unrepealed, so the same hollowing risk applies here as anywhere the gates might pass while capability stalls. This is also the empower/replace question (Q10) applied to the writing deliverable, and the [cognitive-offloading reading](../evidence/reading/2026-06-15-product-validation-and-cognitive-offloading.md) names the failure mode.
+
+**What would resolve this:** the pilot's writing phase — whether writing capability grows when the paper is built this way versus ghostwritten in the researcher's voice, read from the manuscript's per-node ownership records and the supervising professor's assessment of the researcher's writing development. A pattern where paragraphs pass the ownership gate fluently while the professor sees no growth in independent writing falsifies the bet for writing.
+
 ### Q14: Does the methodology transfer to a researcher through the self-serve interface alone?
 
 The methodology is increasingly meant to be *used*, not only read — picked up from the starter workspace by a researcher and their agent, ideally with no guidance but the repo ([GOAL.md](../GOAL.md), [CLAUDE.md](../CLAUDE.md): the interface is itself under study). Whether that transfer actually happens — whether an unmediated researcher onboards, works, and benefits without anyone from this inquiry walking them through it — is open, and distinct from whether the methodology *works once adopted* (Q13), whether development can be *tracked* (Q11), or whether the empower/replace call can be *recognized* (Q10). A methodology that is sound but transmissible only by its authors has not met its own goal.
@@ -93,6 +99,12 @@ The methodology is increasingly meant to be *used*, not only read — picked up 
 This question is the subject-matter face of the product's validation apparatus ([VALIDATION.md](../VALIDATION.md)): its desirability-family pillars — value, usability, adoptability — are the evidence that bears here, and feasibility and integrity gate whether the transfer is even safe.
 
 **What would resolve this:** the validation apparatus's readings across pilot and non-pilot users — feasibility / usability / value / adoptability holding for users who received only the repo, with the dry-run tests calibrated against that field evidence. A non-pilot colleague who adopts and *continues* unaided is the strongest single signal; repeated cold-start failures that trace to the interface (not the domain) falsify the current self-serve bet. The honest confound: the dev-stage build carries self-documenting overhead a deploy build will not, so soft-pillar readings here are read discounted and confirmed in a later de-instrumented trial.
+
+#### Q14.1: Does multi-channel, infer-then-confirm onboarding ease the transfer, or add friction?
+
+A specialization of Q14 for the onboarding interface (practice G25). Onboarding now drafts the profile cheapest-channel-first — a permissioned, batched online lookup confirmed in one pass, plus an expanded profile (voice & register, toolchain, verification anchors) — on the bet that this is lighter *and* richer than the cold interview, and that the gain is largest for experienced researchers with a public record. The opposite risk is that the lookup reads as surveillance, the wrong-person case erodes trust, or the richer profile turns the first session back into the form it was meant to avoid.
+
+**What would resolve this:** the validation apparatus's usability / value / adoptability readings on the lookup-and-confirm onboarding, and `FRICTION/` from real onboards — the lookup over-reaching, the disambiguation failing, or the confirm-pass chafing. An experienced researcher whose onboarding is *shorter and better* for the lookup supports it; onboards that stall or feel invasive at the lookup falsify it.
 
 ---
 

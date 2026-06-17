@@ -99,3 +99,12 @@ Both items are researcher-facing → shipped as [`updates/0004-multichannel-onbo
 ## Follow-on: `applies_from` guidance fix in the release-update skill
 
 The 0004 test run surfaced a bug the draft inherited from `release-update`'s own step-3 guidance, which said to set `applies_from` to the previous release's **`cut_at`**. But a workspace's pin advances to the *fetched HEAD* when it consumes a release (`update` skill §4), not to that release's `cut_at`. So the 0002/0003 cohort is pinned at the **carrying commit** `ba46157` — a descendant of `cut_at` `7eda772` — and `applies_from: 7eda772` would have excluded them from 0004 entirely. Fixed in the shipped 0004 (`applies_from` → `ba46157`) and corrected the `release-update` SKILL.md guidance so it does not recur. Inquiry-internal (maintainer machinery) — no update document.
+
+## Open-questions move (coherence duty)
+
+G25 and G26 place new bets *under* questions already open, so they enter as subquestions (a new convention in [`foundation/03-open-questions.md`](../foundation/03-open-questions.md); maintainer-approved) rather than prose annotations — each can resolve independently of its parent:
+
+- **Q13.1** (under Q13): does building the paper through per-paragraph explain-back build writing capability, or just offload it? — the G26 bet; the writing-phase instance of gate-carried apprenticeship, and the empower/replace question (Q10) applied to the deliverable.
+- **Q14.1** (under Q14): does multi-channel, infer-then-confirm onboarding ease the transfer or add friction? — the G25 bet on the onboarding interface.
+
+The G25/G26 registry rows now point at the specific subquestions (G25 → Q14.1, G26 → Q13.1) so the link runs both ways. No new entry under Q10 — each bet kept in one home and cross-linked. Neither subquestion is researcher-facing (the open-questions file is inquiry-internal) — no update document.
