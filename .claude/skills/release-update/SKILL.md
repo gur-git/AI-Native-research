@@ -26,7 +26,7 @@ For each change: **researcher-facing** (changes what a workspace agent should do
 
 `updates/NNNN-<slug>.md`, next number, per the conventions in [`updates/README.md`](../../../updates/README.md):
 
-- Header: `date`, `applies_from` (anything pinned at or before the previous release's `cut_at`), `cut_at` (filled in step 5), `starter_version` (the version this release produces).
+- Header: `date`, `applies_from` (anything pinned at or before the previous release's **carrying commit** — the inquiry HEAD consumers pinned to *after* that release, **not** its `cut_at`: a workspace's pin advances to the fetched HEAD when it consumes a release (`update` skill §4), so an `applies_from` set to the previous `cut_at` skips everyone who already took the previous release), `cut_at` (filled in step 5), `starter_version` (the version this release produces).
 - One item per researcher-facing change: **what changed**, **why** (one line, evidence links — relayed honestly), **what to ask your researcher**, **how to apply**.
 - **Whole files ride as attachments**: exact content in `updates/NNNN-files/<name>`, with the item pointing at the attachment. Small edits are written inline. A consumer must be able to apply every item from the document and its attachments alone — never from prose reconstruction.
 - Never instruct touching researcher content (state substance, knowledge, records, friction).
