@@ -1,6 +1,6 @@
 # foundation/
 
-The diagnosis. This is where the inquiry lays out *why* research must be reimagined and *what* about AI forces the reimagining. The methodology that follows ([`../methodology/`](../methodology/)) is built up from this diagnosis plus accumulating evidence; nothing is in the methodology that does not trace back to something here.
+The diagnosis. This is where the inquiry lays out *why* research must be reimagined and *what* about AI forces the reimagining. The methodology that follows ([`../METHODOLOGY.md`](../METHODOLOGY.md)) is built up from this diagnosis plus accumulating evidence; nothing is in the methodology that does not trace back to something here.
 
 The repo's compressed charter — the why and how stated for the repo as a whole — is in [`../GOAL.md`](../GOAL.md). The documents in this directory are the substantiated long-form of that charter's argument.
 
