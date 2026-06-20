@@ -11,7 +11,7 @@ This may change later. The repo will signal it explicitly if and when it does.
 ## What you can do
 
 - **Read along.** The foundation documents (`foundation/`), the methodology ([`METHODOLOGY.md`](METHODOLOGY.md)), and the log (`log/`) are written to be read.
-- **Use the methodology.** The starter workspace (linked from the README once published) is the way to run your own research with it; your workspace's `FRICTION/` folder is the feedback channel — early users' friction is read by arrangement.
+- **Use the methodology.** The starter workspace (linked from the README) is the way to run your own research with it; your workspace's `FRICTION/` folder is the feedback channel — early users' friction is read by arrangement.
 - **Watch / star** if you want to follow the inquiry.
 - **Reach out** if you are working on related problems and would like to discuss a collaboration. Email: **masuryg@post.bgu.ac.il**.
 

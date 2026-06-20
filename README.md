@@ -51,7 +51,7 @@ This is written for a working researcher, so it tries to earn trust the way you 
 
 ## Status
 
-Foundation v1 as of 2026-05-06: five documents covering the argument, the attribute catalog, implications, and open questions. On 2026-06-10 the methodology was consolidated into [`METHODOLOGY.md`](METHODOLOGY.md) and revised on the first pilot-phase evidence: the posture moved from advise-don't-author to gate-carried (registry G20–G22; first retirement G5; the bet tracked as Q13). The pilot — the maintainer's own research project — is running; the starter workspace is being assembled as the methodology's executable form.
+Foundation v1 as of 2026-05-06: five documents covering the argument, the attribute catalog, implications, and open questions. On 2026-06-10 the methodology was consolidated into [`METHODOLOGY.md`](METHODOLOGY.md) and revised on the first pilot-phase evidence: the posture moved from advise-don't-author to gate-carried (registry G20–G22; first retirement G5; the bet tracked as Q13). The pilot — the maintainer's own research project — is running; the starter workspace is published as the methodology's executable form, and evolving.
 
 ## How the inquiry maintains itself
 
