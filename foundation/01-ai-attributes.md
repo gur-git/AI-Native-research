@@ -10,7 +10,7 @@ Each attribute is given a short, complete description of what it is, then tagged
 
 Each tag is followed by a thorough explanation of why this is the right read. The reader is welcome to disagree; the open question file (`03-open-questions.md`) tracks the disagreements and what would resolve them.
 
-The attributes are grouped into four clusters that capture roughly distinct kinds of methodological pressure.
+The attributes are grouped into five clusters that capture roughly distinct kinds of methodological pressure.
 
 ---
 

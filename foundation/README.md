@@ -15,7 +15,7 @@ The numbering reflects suggested reading order. Each file points to the others i
 | **`00-why-reimagine.md`** | The argument | Establishes the reader's starting point, takes it one step further (AI is the first tool that substitutes for skill without reciprocal skill development), names the urgency, and proposes the central mindset shift (empower, not replace). The front door. Contains the recombination/innovation distinction in §3. |
 | **`01-ai-attributes.md`** | The catalog | Seventeen attributes of AI in five clusters, each tagged `structural` (likely permanent), `temporary` (likely solvable), or `ambiguous`. The detailed substrate `00`'s argument rests on. |
 | **`02-implications.md`** | The gestures | What the diagnosis pulls toward in terms of methodology — five directions, framed under the empower-not-replace meta-frame. Inputs to the methodology, not outputs of it. |
-| **`03-open-questions.md`** | The honest gaps | Twelve questions the foundation does not have settled views on, with what would resolve each. |
+| **`03-open-questions.md`** | The honest gaps | Fourteen questions the foundation does not have settled views on, with what would resolve each. |
 
 ## Where the innovation deep-dive lives now
 
