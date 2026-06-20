@@ -18,7 +18,7 @@ Four commitments shape how work in this repo should be done.
 
 **Foundation-first.** Don't add to the methodology before the foundation supports it. If a guideline doesn't trace to an attribute and a piece of evidence, it doesn't go in.
 
-**Evidence-driven.** Every claim in `foundation/` and `methodology/` should be traceable to something in `evidence/` or to a cited source. Untraceable claims are debt; flag them rather than letting them accumulate.
+**Evidence-driven.** Every claim in `foundation/` and `METHODOLOGY.md` should be traceable to something in `evidence/` or to a cited source. Untraceable claims are debt; flag them rather than letting them accumulate.
 
 **Honest tone.** Observational, not promotional. The reader is a working researcher who can sense when something is overclaimed. Note things matter-of-factly. Distinguish what is known from what is suspected from what is speculation.
 

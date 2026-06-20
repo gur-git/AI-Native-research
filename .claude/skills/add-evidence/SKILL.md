@@ -82,6 +82,6 @@ Then **confront the open questions**: for each question this evidence bears on, 
 
 ## Reminders
 
-- Evidence is descriptive. Resist the urge to draw conclusions in the evidence file itself. Conclusions live in `foundation/` and `methodology/`.
+- Evidence is descriptive. Resist the urge to draw conclusions in the evidence file itself. Conclusions live in `foundation/` and `METHODOLOGY.md`.
 - Confidence labels are not modesty; they are the calibration signal future work will lean on. An interview with one person is `weak` to `moderate` no matter how persuasive the person was.
 - If the evidence contradicts something in `foundation/`, do not silently fix the foundation. Add the evidence, log the contradiction, and let `update-foundation` handle the revision in a separate, deliberate step.

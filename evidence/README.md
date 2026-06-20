@@ -1,6 +1,6 @@
 # evidence/
 
-The substrate. Every claim in `foundation/` and every guideline in `methodology/` should trace to something in here.
+The substrate. Every claim in `foundation/` and every guideline in `METHODOLOGY.md` should trace to something in here.
 
 ## Structure (provisional)
 
