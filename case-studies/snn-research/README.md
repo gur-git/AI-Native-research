@@ -8,7 +8,7 @@ Per the charter ([`GOAL.md`](../../GOAL.md) §What advancing the inquiry looks l
 
 Two channels, both recorded under `evidence/` (this directory only indexes them):
 
-1. **Background audits.** The pilot repo is the maintainer's own; the maintainer periodically reads its documentation and working state and records what is observed — how the scaffold is actually used, what was re-cut, what chafed — as `evidence/observations/`. First run: [2026-06-10 workspace audit](../../evidence/observations/2026-06-10-pilot-workspace-audit.md).
+1. **Background audits.** The pilot repo is public; the maintainer periodically reads its documentation and working state and records what is observed — how the scaffold is actually used, what was re-cut, what chafed — as `evidence/observations/`. First run: [2026-06-10 workspace audit](../../evidence/observations/2026-06-10-pilot-workspace-audit.md).
 2. **Conversations.** Notes from conversations with the pilot team (and, separately, with the team's supervising professor about how research is classically conducted and mentored) are recorded as `evidence/interviews/`. First professor entry: [2026-06-10, the early steps of the classical research process](../../evidence/interviews/2026-06-10-professor-classical-research-steps.md).
 
 The pilot's own `FRICTION.md` (issue/PR route prescribed by the handoff) remains the researcher-owned channel; as of 2026-06-10 it has not yet been exercised, and the background audits stand in until it is.
