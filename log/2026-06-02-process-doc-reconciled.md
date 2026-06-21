@@ -7,7 +7,7 @@ kind of drift the repo's coherence rule (`CLAUDE.md` §Coherence and revision) e
 
 ## What changed
 
-[`methodology/ai-native-research-process.md`](../methodology/ai-native-research-process.md) is
+`methodology/ai-native-research-process.md` is
 restructured onto the same scheme the agent operating guide uses:
 
 - Phases re-bucketed to **0 Orient · 1 Context · 2 Survey, then focus · 3 Design · 4 Execute · 5 Verify · 6 Disseminate · 7 Respond to review**. The old on-ramp gap is now an explicit Phase 0 (Orient); old 0a/0b/2 fold into Context and Survey-then-focus; old 1+3 into Design.
