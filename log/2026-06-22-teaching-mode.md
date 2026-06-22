@@ -54,9 +54,14 @@ onboard and §1 learn repointed to teaching mode; §8 mapping and G20/G21 wordin
 update **0005** (`starter_version` 0.5.0): CLAUDE.md §Modes, README, and the `onboard`, `learn`,
 and `gate` skills.
 
-## Open-question offer (for the maintainer)
+## Open-question moves
 
-G27 bears on Q13 (does gate-carried work build the second output) and Q14/Q14.1 (the interface).
-A sharper sub-question is available if wanted: **does a *dedicated* teaching mode build
-understanding better than teaching folded into conversation?** — the split is the bet; the
-pilot is the test. Offered, not opened (a maintainer call).
+Opened **Q13.2** (under Q13): *does a dedicated teaching mode build understanding better than
+teaching folded into conversation?* — the split is the bet; the pilot is the test (gate first-pass
+and re-teach rates vs the pre-split baseline; the mode boundary watched in `FRICTION/`). G27
+repointed to Q13.2.
+
+**Q13 itself was realigned.** It had credited *gates* with carrying the second output, but the
+teaching-mode split makes the mechanism the **teach→gate loop** — teaching builds understanding,
+gates verify it — so Q13's framing now says so. Both inquiry-internal; no update document (open
+questions track the inquiry's uncertainty; they do not change what a workspace agent does).
