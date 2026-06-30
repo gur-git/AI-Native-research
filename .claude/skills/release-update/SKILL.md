@@ -1,11 +1,11 @@
 ---
 name: release-update
-description: Release a methodology change as an update document that every downstream copy - the starter template first, then users' workspaces - consumes through the same process. Drafts the document (+ attachments for whole files), applies it to the template as its first consumer (the test run), moves versions and pins, and prepares the commits for the maintainer to review and push. Use after a deliberate change to METHODOLOGY.md (or researcher-facing foundation content) has been decided; triggers on "release", "release the update", or as the closing step of add-guideline when a change is researcher-facing.
+description: Release a methodology change as an update document that every downstream copy - the starter template first, then users' workspaces - consumes through the same process. Drafts the document (+ attachments for whole files), applies it to the template as its first consumer (the staging; the dry-run validation is `validation` Phase A's job), moves versions and pins, and prepares the commits for the maintainer to review and push. Use after a deliberate change to METHODOLOGY.md (or researcher-facing foundation content) has been decided; triggers on "release", "release the update", or as the closing step of add-guideline when a change is researcher-facing.
 ---
 
 # release-update
 
-One artifact carries every change: the **update document**. The starter template is its first consumer — applying the document to the template *is* how the template stays aligned, and is also the document's test run before any user sees it. The maintainer's place: they decide the change, they review the bundle this skill prepares, and they push. Nothing publishes itself.
+One artifact carries every change: the **update document**. The starter template is its first consumer — applying the document to the template *is* how the template stays aligned, and proves the document *applies cleanly* before any user sees it (the substantive pre-ship validation — the dry-run suite — runs in `validation` Phase A, against this staged result). The maintainer's place: they decide the change, they review the bundle this skill prepares, and they push. Nothing publishes itself.
 
 ## Preconditions
 
@@ -31,11 +31,11 @@ For each change: **researcher-facing** (changes what a workspace agent should do
 - **Whole files ride as attachments**: exact content in `updates/NNNN-files/<name>`, with the item pointing at the attachment. Small edits are written inline. A consumer must be able to apply every item from the document and its attachments alone — never from prose reconstruction.
 - Never instruct touching researcher content (state substance, knowledge, records, friction).
 
-### 4 · Apply to the template — the first consumer and the test run
+### 4 · Apply to the template — the first consumer (stage the shippable state)
 
 Run the starter's own `update` skill in **template mode** against the template working copy, walking the just-drafted document item by item. The maintainer authored the change, so there is no adoption interview — but every apply instruction gets executed exactly as written. **If an instruction fails, is ambiguous, or needs adapting on contact: fix the document (and attachments), not just the template** — it is not yet published, so it is still editable; that is the point of consuming it here first. Closing steps per the skill's template mode: bump `starter_version` in the template's CLAUDE.md; the pin moves in step 5. Template mode writes no `context/records/` entries — the session is recorded in the commit message.
 
-After applying, verify against METHODOLOGY.md §8 (the element mapping): every element the changed practices map to should now be consistent, and no normative content should exist only in the template. Mismatches mean the document missed an item — fix and re-apply.
+After applying, verify against METHODOLOGY.md §8 (the element mapping): every element the changed practices map to should now be consistent, and no normative content should exist only in the template. Mismatches mean the document missed an item — fix and re-apply. (This is the apply-*completeness* check — that the document installed everything. The substantive pre-ship validation, the dry-run suite D1–D6, runs separately in `validation` Phase A against this staged result, before the push.)
 
 ### 5 · Commit and pin (this order keeps the pins valid)
 
