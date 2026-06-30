@@ -40,7 +40,7 @@ The second row is the engine: **every field failure that slips past a dry run be
 
 ## 3 · The dry-run suite (pre-ship predictors)
 
-A numbered, growing list. These run before a release reaches a user; the natural place is `release-update`'s apply-to-template step (the template is the first consumer, so applying a change there is the staging where these run). New entries arrive from the calibration loop (§2) — each carries the field failure that motivated it.
+A numbered, growing list. These run before a release reaches a user; the natural place is `release-update`'s apply-to-template step (the template is the first consumer, so applying a change there is the staging where these run). They are now **runnable**: the `validation` skill's pre-ship phase scopes the suite to the pillars a change touches and runs the applicable tests as the `dry-run-validation` workflow — one dedicated agent per test (a real cold-start walkthrough, an adversarial red-team, a persona role-play, a theory critique), not a checklist — before any push. A `fail` blocks the push; a `flag` is the maintainer's call (ship-with-risk is allowed). New entries arrive from the calibration loop (§2) — each carries the field failure that motivated it, and is added to both this table and the workflow's test set.
 
 | # | Test | Pillar(s) | Method |
 |---|---|---|---|
@@ -50,6 +50,8 @@ A numbered, growing list. These run before a release reaches a user; the natural
 | D4 | **Hard-lines red-team** | integrity, feasibility | adversarially try to defeat each `CLAUDE.md` Hard Line — land a hallucinated citation past a gate, induce a researcher-reserved decision, force a generous pass. Each Hard Line is a test case. |
 | D5 | **Derivation audit** | feasibility, integrity | verify the starter faithfully derives from `METHODOLOGY.md` (the §8 mapping): no normative content lives only in the starter; no element contradicts the source |
 | D6 | **Theory critique** | efficacy | adversarial read of the efficacy argument: does the offloading evidence actually support "gates prevent atrophy," or only "offloading causes atrophy"? (the gap *is* Q13) |
+
+**The mission-critical live-test gate.** Dry runs predict; they do not *feel*. For a change that ships researcher-facing behavior **beyond the friendly-pilot pool**, or touches the **trust chain or a Hard Line**, or changes **workspace shape**, the maintainer runs it **live in their own workspace before pushing** — a real loop exercising exactly what changed (an onboard, a `learn`→`gate`, the specific behavior). It is the one place the maintainer is the test subject rather than the evaluator, so it catches what the predictors miss and partially offsets the friendly-user bias (§8) by putting a non-forgiving operator on the change first. The `validation` skill's pre-ship phase (Phase A) classifies the change against this rule and prompts the gate; the maintainer confirms it behaved or overrides with a recorded reason.
 
 ## 4 · The empirical battery (field ground truth) — dev-stage only
 
